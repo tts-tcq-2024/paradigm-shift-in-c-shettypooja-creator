@@ -36,7 +36,6 @@ int batteryIsOk(float temperature, float soc, float chargeRate)
   returnVal &= batterySocCheck(soc);
   returnVal &= batterychargeRateCheck(chargeRate);
   return returnVal;
- //return (batteryTempCheck(temperature) && batterySocCheck(soc) && batterychargeRateCheck(chargeRate) );
 }
 
 int main() {
